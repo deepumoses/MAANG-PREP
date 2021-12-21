@@ -1,3 +1,8 @@
+// Definition: A Binary tree structure where every parent node is always greater than its children
+// key takeaway #1: the root node/ first element in the array is your maximum element
+// key takeaway #2: for any index i in your array, the parent for node at index i will be Math.floor((i-1)/2)
+// key takeaway #3: for any index i in your array, the children for node at index i will be 2n+1 for left child and 2n+2 for right child respectively.
+
 class BinaryHeap {
     constructor() {
         this.values = [];
