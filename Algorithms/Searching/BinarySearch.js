@@ -49,5 +49,5 @@ binarySearch(array, 34);
 binarySearch(array, 22);
 binarySearch(array, 42);
 
-// Time complexity: O(logn)
+// Time complexity: O(log n) - as it takes roughly 2^n steps/loops/traversal to find an element i.e for array size 16 => 4 steps, 32 => 5
 // Space complexity: O(1)
