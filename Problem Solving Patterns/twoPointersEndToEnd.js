@@ -1,3 +1,6 @@
+// Definition: 1 pointer at start and 1 at the end of the array that 
+// increment and decrement conditionally
+
 // find 1st pair whose sum is 0
 // input: sorted array
 // O(n) time and O(1) space
