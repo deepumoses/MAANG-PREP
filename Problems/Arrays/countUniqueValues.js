@@ -29,4 +29,7 @@ function countUniqueValues(arr){
     return i+1; // coz arrays are zero indexed
   }
 
+const result = countUniqueValues([-3, -1, 1, 5, 6, 7, 7, 8, 8, 8, 11]);
+console.log(result);
+
   // Pattern used: MultiplePointers
