@@ -5,6 +5,7 @@ usage: For problems that involve a continuous pattern
 */
 
 // Problem: Find the maximum sum of n continuous elements in an array (Max sum of a subset of n length in an array)
+// O(n) time and O(1) space
 
 const maxSubset = (arr, n) => {
   // edge case
