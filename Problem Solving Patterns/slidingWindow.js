@@ -20,7 +20,6 @@ const maxSubset = (arr, n) => {
   // loop and find sum of subsets as we go
   for (let i = n; i < arr.length; i++) {
     tempSum = tempSum - arr[i - n] + arr[i];
-    console.log(tempSum, maxSum);
     if (tempSum > maxSum) maxSum = tempSum;
   }
 
